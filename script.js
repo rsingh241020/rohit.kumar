@@ -148,7 +148,7 @@ form.addEventListener('submit', function(e) {
 
     emailjs.sendForm('service_j0rft9q', 'template_z0kvjrb', this)
         .then(() => {
-            formMessage.textContent = 'Your data has been submitted successfully!';
+            formMessage.textContent = 'Thank you! Your message has been successfully submitted. I’ll get back to you shortly';
 
             return emailjs.sendForm('service_j0rft9q', 'template_a8o01gt', this);
         })
